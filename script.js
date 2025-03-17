@@ -7,7 +7,7 @@ function firstNonRepeatedChar(str) {
 		arr[ch.charCodeAt(0)-'a'.charCodeAt(0)]++;
 	}
 
-	let ans = "null";
+	let ans = null;
 
 	for(let i =0 ;i<26 ; i++){
 		if(arr[i] === 1){
